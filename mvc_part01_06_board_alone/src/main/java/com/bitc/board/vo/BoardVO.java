@@ -12,4 +12,17 @@ public class BoardVO {
 	private String writer;
 	private Date regdate;
 	private int viewcnt;
+	
+	public BoardVO(String title, String content, String writer) {
+		super();
+		this.title = title;
+		this.content = content;
+		this.writer = writer;
+	}
+
+	public BoardVO() {}
+	
+	
+	
+	
 }

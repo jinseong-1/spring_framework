@@ -22,12 +22,14 @@ public class BoardController {
 	/**
 	 * 게시글 등록 요청 처리 추가
 	 */
-	//@PostMapping("board/register")
-	/*public String notice(BoardVO notice, String title, String content, String writer Model model) {
-		BoardVO vo = new BoardVO(title, content, writer);
-		model.addAttribute("notice", vo);
-		model.addAttribute(notice)
-	}*/
+	 @PostMapping("board/register") 
+	 public String register(BoardVO register, String title, String content, String writer, Model model) { 
+		 BoardVO vo = new BoardVO(title, content, writer); 
+		 model.addAttribute("register", vo);
+		 model.addAttribute(register); 
+		 return "register"; 
+	  }
+	 
 	
 	
 	/**

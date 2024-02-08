@@ -23,9 +23,9 @@ public class BoardDAOTest {
 	@Test
 	public void testBoard() {
 		BoardVO board = new BoardVO();
-		board.setTitle("bye");
-		board.setContent("h2");
-		board.setWriter("kk");
+		board.setTitle("1");
+		board.setContent("2");
+		board.setWriter("1");
 		
 		try {
 			int result = bo.create(board);

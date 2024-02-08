@@ -25,6 +25,7 @@ public class BoardMybatisDAOImpl implements BoardDAO {
 
 	@Override
 	public BoardVO read(int bno) throws Exception {
+		// TODO Auto-generated method stub
 		//int result = session.select("boardMapper.selectBoard",bno);
 		
 		return null;

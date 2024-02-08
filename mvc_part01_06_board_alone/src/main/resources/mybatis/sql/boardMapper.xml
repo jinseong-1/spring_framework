@@ -9,6 +9,10 @@ PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
 		VALUES(#{title},#{content},#{writer})
 	</insert>
 	
+	<!-- <select id="selectBoard" parameterType="String" resultType="board">
+		SELECT * FROM tbl_board WHERE bno = #{bno}
+	</select> -->
+	
 	
 </mapper>
 
