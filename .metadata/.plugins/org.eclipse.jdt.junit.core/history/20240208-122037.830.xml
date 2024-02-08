@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BoardDAOTest" project="mvc_part01_06_board" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="net.koreate.board.BoardDAOTest" time="0.489">
+    <testcase name="testBoard" classname="net.koreate.board.BoardDAOTest" time="0.489"/>
+  </testsuite>
+</testrun>

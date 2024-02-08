@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\admin\Desktop\spring_jsp\20240208_spring_practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2593776261.index
+\mvc_part01_06_board\src\main\java
+C:\Users\admin\Desktop\spring_jsp\20240208_spring_practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\627733150.index
+\mvc_part01_06_board\src\main\java
+C:\Users\admin\Desktop\spring_jsp\20240208_spring_practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3104804647.index
+\mvc_part01_06_board_alone\src\main\java
+C:\Users\admin\Desktop\spring_jsp\20240208_spring_practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\858876421.index
+\mvc_part01_06_board_alone\src\main\java

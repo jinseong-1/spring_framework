@@ -1,0 +1,24 @@
+package net.koreate.board;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.bitc.board.vo.BoardVO;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(
+	locations = {"classpath:spring/root-context.xml"}
+)
+public class BoardDAOTest {
+
+	
+	public void testBoard() {
+		BoardVO board = new BoardVO();
+		board.setTitle("hi");
+		board.setContent("bye");
+		board.setWriter("writer");
+		
+		int result = bo.insertBoard(board);
+	}
+}
